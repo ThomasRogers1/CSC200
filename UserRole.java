@@ -23,7 +23,7 @@ public class UserRole {
 			break;
 
 		case "Guest":
-			JOptionPane.showMessageDialog(null, "Welcome Student!:");
+			JOptionPane.showMessageDialog(null, "Welcome Guest!");
 			break;
 
 		default:
