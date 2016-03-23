@@ -5,13 +5,13 @@ public class BooleanExpressions {
 		String people = JOptionPane.showInputDialog("Enter Number of People");
 		String players = JOptionPane.showInputDialog("Enter Number of Players");
 
-		Double numPeople = Double.parseDouble(people);
-		Double groupSize = numPeople / 2;
-		Double groupSize2 = numPeople / 3;
+		int numPeople = Integer.parseInt(people);
+		int groupSize = numPeople / 2;
+		int groupSize2 = numPeople / 3;
 
-		Double numPlayers = Double.parseDouble(players);
-		Double teamSize = numPlayers / 11;
-		Double teamSize2 = 1.0;
+		int numPlayers = Integer.parseInt(players);
+		int teamSize = numPlayers / 11;
+		int teamSize2 = 1;
 
 		if (numPeople>10) {
 			if (numPlayers<=55 && numPlayers>=11) {
